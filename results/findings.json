@@ -1,0 +1,53 @@
+{
+  "environment": {
+    "python_version": "3.13.12",
+    "implementation": "CPython",
+    "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+    "highest_protocol": 5,
+    "default_protocol": 4
+  },
+  "F1_string_set_cross_process": {
+    "unique_digests": 8,
+    "stable": false,
+    "sample": [
+      "9553ac57c65b9d27026feed8dd6001075cce67741e72ac63112e226cc12b91ef",
+      "5d46618ec677020c00dc21e659305c6f81e040276b999209892ff06890fd8166",
+      "7424c065817c9d4dbec8c0936529e438ecfd6f2b497bb7d7aa8413440d094a46"
+    ]
+  },
+  "F1b_fixed_hashseed_mitigation": {
+    "unique_digests": 1,
+    "stable": true
+  },
+  "F2_dict_insertion_order": {
+    "equivalent": true,
+    "hash_identical": false
+  },
+  "F3_aliasing_memoization": {
+    "equivalent": true,
+    "hash_identical": false
+  },
+  "F4_float_rounding": {
+    "value_0.1+0.2": "0.30000000000000004",
+    "hash_identical_to_0.3": false
+  },
+  "F5_signed_zero": {
+    "equivalent": true,
+    "hash_identical": false
+  },
+  "F6_default_vs_highest_protocol": {
+    "default": 4,
+    "highest": 5,
+    "bytes_differ": true
+  },
+  "F7_cross_protocol": {
+    "unique_digests": 6,
+    "num_protocols": 6
+  },
+  "C1_int_set_cross_process": {
+    "unique_digests": 1
+  },
+  "C2_repeat_dump_determinism": {
+    "stable": true
+  }
+}
